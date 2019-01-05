@@ -47,7 +47,7 @@ F 3 "~" H 4500 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 1950 3300 1950
+	3000 1950 3200 1950
 Wire Wire Line
 	3300 2050 3300 1950
 Connection ~ 3300 1950
@@ -86,8 +86,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 2450 3900 2450
 Connection ~ 3900 2450
-Wire Wire Line
-	3900 2450 3900 2250
 Wire Wire Line
 	4500 2350 4500 2450
 Wire Wire Line
@@ -400,4 +398,24 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    3900 1950
 	1    0    0    -1  
 $EndComp
+Text Label 3050 1950 0    50   ~ 0
+VIN
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C30DA2B
+P 3200 1850
+F 0 "#FLG0101" H 3200 1925 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 2024 50  0000 C CNN
+F 2 "" H 3200 1850 50  0001 C CNN
+F 3 "~" H 3200 1850 50  0001 C CNN
+	1    3200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1850 3200 1950
+Connection ~ 3200 1950
+Wire Wire Line
+	3200 1950 3300 1950
+Wire Wire Line
+	3900 2250 3900 2450
 $EndSCHEMATC
