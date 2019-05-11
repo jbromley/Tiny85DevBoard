@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 17)
     (tracks 64)
     (zones 0)
     (modules 13)
@@ -62,7 +62,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x01000_fffffffe)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -83,7 +83,7 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 5)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
@@ -916,6 +916,9 @@
     )
   )
 
+  (gr_text "Tiny85 Dev Board" (at 170.18 127) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
   (gr_text ISP (at 184.404 124.968) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
@@ -1022,7 +1025,7 @@
   (segment (start 180.594 115.316) (end 181.229 115.316) (width 0.25) (layer B.Cu) (net 12) (status 30))
   (segment (start 177.419 118.491) (end 180.594 115.316) (width 0.25) (layer B.Cu) (net 12) (status 30))
 
-  (zone (net 4) (net_name GNDPWR) (layer B.Cu) (tstamp 5C370C57) (hatch edge 0.508)
+  (zone (net 4) (net_name GNDPWR) (layer B.Cu) (tstamp 5CD66B58) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
